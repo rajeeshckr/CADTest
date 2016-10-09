@@ -30,7 +30,6 @@
         private bool propPnVisible;
         private bool textVisible;
         private CADImport.CADImportControls.CADEditorControl cadEditorControl;
-        private static readonly string fileSettingsName;
         private string lngFile;
         private CADImport.FaceModule.MultipleLanguage mlng;
         private int curLngIndex;
@@ -578,14 +577,15 @@
             this.cadEditorControl.TextVisible = true;
             this.cadEditorControl.ToolsPanelVisible = true;
             this.cadEditorControl.EndLoadFile += new CADImport.CADImportForms.ChangeOptionsEventHandler(this.cadEditorControl_EndLoadFile);
+            this.cadEditorControl.Load += new System.EventHandler(this.cadEditorControl_Load);
             // 
-            // Form1
+            // CADTestForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.ClientSize = new System.Drawing.Size(675, 462);
             this.Controls.Add(this.cadEditorControl);
             this.Menu = this.mainMenu;
-            this.Name = "Form1";
+            this.Name = "CADTestForm";
             this.Text = "Editor";
             this.Closing += new System.ComponentModel.CancelEventHandler(this.MainForm_Closing);
             this.Load += new System.EventHandler(this.MainForm_Load);

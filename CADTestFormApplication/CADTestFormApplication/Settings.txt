@@ -1,0 +1,16 @@
+#CADImport .Net file of settings
+
+BackgroundColor=BLACK
+drawMode=True
+Language=Default
+LanguageID=0
+LanguagePath=C:\Users\Rajeesh\Documents\CAD .NET 11\bin\Languages
+maximized=False
+pos_height=519
+pos_left=104
+pos_top=280
+pos_width=800
+ShowEntity=True
+SHXPath_1=C:\Users\Rajeesh\Documents\CAD .NET 11\shx
+SHXPath_2=C:\shx
+SHXPathCount=2
