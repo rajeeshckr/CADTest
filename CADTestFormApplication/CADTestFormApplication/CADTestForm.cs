@@ -15,13 +15,13 @@ using System.IO;
 
 namespace CADTestFormApplication
 {
-    public partial class CADTest : Form
+    public partial class CADTestForm : Form
     {
         private SaveSettings svSet;
         private static SortedList settingsLst;
         CADImage _cadImage;
 
-        public CADTest()
+        public CADTestForm()
         {
 
             InitializeComponent();

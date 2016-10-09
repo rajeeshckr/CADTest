@@ -1,6 +1,6 @@
 ﻿namespace CADTestFormApplication
 {
-    partial class CADTest
+    partial class CADTestForm
     {
         /// <summary>
         /// Required designer variable.
@@ -96,7 +96,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CADTest));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CADTestForm));
             this.mainMenu = new System.Windows.Forms.MainMenu(this.components);
             this.miFile = new System.Windows.Forms.MenuItem();
             this.miOpenFile = new System.Windows.Forms.MenuItem();
